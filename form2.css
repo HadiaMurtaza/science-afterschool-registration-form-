@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card h1{
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.card{
+    margin: 60px auto;
+    width: 550px;
+    padding: 10px;
+   border-radius: 8px;
+   
+   
+}
+
+.box label{
+    display: block;
+    margin-bottom: 8px;
+
+}
+.box{
+  padding: 10px 0;
+
+ 
+}
+
+.box input , .box textarea{
+    padding: 10px;
+    background-color: #E7FDE8;
+    color: #AABAA7;
+    border-bottom: 2px solid #b6dcc0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  width: 100%;
+  
+}
+
+textarea{
+    width: 100%;
+    resize: none;
+    
+}
+button{
+    background-color: #F65B47;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    margin-top: 11px;
+    font-size: 19px;
+}
+.row{
+   display: flex;
+    gap: 15px;
+}
+.row div{
+    width: 50%;
+}

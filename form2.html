@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form2.css">
+</head>
+
+<body>
+    <div class="card">
+        <h1>Science Afterschool Program <br>
+            Registration Form</h1>
+        <form action="#" method="post">
+           
+                <div class="box">
+                <label for="studentname">Student Name</label>
+                <div class="row">
+                <input type="text" name="studentname" id="studentname" placeholder="First">
+                <input type="text" name="studentname" id="studentname" placeholder="Last">
+            </div>
+        </div>
+        <div class="row">
+            <div class="box "><label for="grade">Grade</label>
+                <input type="text" name="grade" id="grade"></div>
+                <div class="box ">  <label for="teacher">Teacher</label>
+                <input type="text" name="teacher" id="teacher">
+            </div>
+        </div>
+            <div class="box"> <label for="guardianname">Guardian Name</label>
+                <div class="row">
+                <input type="text" name="guardianname" id="guardianname" placeholder="First">
+                <input type="text" name="guardianname" id="guardianname" placeholder="Last">
+            </div></div>
+            <div class="box"><label for="phoneno">Phone Number</label>
+                <div class="row">
+                <input type="tel" name="phoneno" id="phoneno" placeholder="### ### ###"></div>
+            </div>
+            <div class="box"><label for="special">List all allergies, food restrictions, and anything special
+                    about your child we should know. If
+                    none, leave as N/A.</label><div class="row">
+                <textarea name="special" id="special" cols="30" rows="10"></textarea>
+            </div>
+            </div>
+              <p>Terms*</p>
+             <input type="checkbox" name="terms" id="terms">
+             <label for="terms">I agree to the <span style="color: #F65B47;"> terms and conditions.</span></label>
+           <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+
+</html>
